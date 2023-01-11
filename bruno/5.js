@@ -10,20 +10,22 @@
 
 
 function checkMonth(month) {
-  if (month <= 4) {
+  if (month <= 3) {
     console.log('first quarter')
   }
-  else if (month > 4 && month <= 8) {
+  else if (month > 3 && month <= 6) {
     console.log('second quarter')
   }
-  else if (month > 8) {
+  else if (month > 6 && month <= 9) {
     console.log('third quarter')
   }
-  else {
-    return 'enter valid month'
+  else if (month > 9) {
+    console.log('fourth quarter')
+  } else {
+    return 'enter valid month input'
   }
 };
-checkMonth(4)
+checkMonth(10)
 
 
 
