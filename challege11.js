@@ -1,3 +1,5 @@
-String.prototype.toAlternatingCase = function() {
-  return this.split('').map(x => x == x.toUpperCase() ? x.toLowerCase() : x.toUpperCase()).join('')
+function checkPalindrome(str) {
+  return str == str.split('').reverse().join('');
 };
+
+console.log(checkPalindrome());
