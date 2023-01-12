@@ -1,6 +1,6 @@
 function multiplesLimit(number, limit) {
   let result = []
-  for (i = 0; i <= limit; i++) {
+  for (i = 1; i <= limit; i++) {
     i % number === 0 ? result.push(i) : ''
   }
   return result;
