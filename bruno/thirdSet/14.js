@@ -6,7 +6,6 @@ function binStrArray(decimal) {
   const strArray = []
   strArray.push(...toBin)
   let lastArray = []
-  let end = [];
   for (i = 0; i < strArray.length; i++) {
     lastArray.push(+strArray[i])
   }
