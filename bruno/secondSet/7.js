@@ -3,3 +3,4 @@ function removeExclamationMarks(string) {
   return newString;
 };
 console.log(removeExclamationMarks('porra!!!!!!!!'))
+//test
